@@ -19,14 +19,17 @@
     color: #5c5757;
     @include breakpoint($x-large) {
       max-width: $x-large;
+      background-color: #bce69e;
     }
 
     nav {
       z-index: 10;
+      background-color: #bce69e;
     }
 
     a {
       text-decoration: none;
+      background-color: #bce69e;
     }
   }
 }
@@ -51,5 +54,6 @@
   &--lg {
     padding-right: 2em;
     font-weight: 700;
+    background-color: #bce69e;
   }
 }
