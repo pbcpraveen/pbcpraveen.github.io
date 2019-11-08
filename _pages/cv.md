@@ -8,33 +8,29 @@ redirect_from:
 ---
 
 {% include base_path %}
+The document version of my CV can be downloaded [here](http://pbcpraveen.github.io/files/CV.pdf)
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* $10^th$ Grade , The Hindu Senior Secondary School, Indra Nagar, Chennai.(2015)
+* $12^th$ Grade , The Hindu Senior Secondary School, Indra Nagar, Chennai.(2017)
+* Bachelors in Computer Science and Engineering, Kalavakkam, Tamil Nadu. (2021 - expected) 
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2019: intern
+  * Admatic Solution Pvt. Ltd.
+  * Duties included: Computer Vision and Deep Learning
+  * Supervisor: Mr. Saravanan
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Machine Learning
+* Deep learining
+* Computer Vision
+* Arduino
+* Languages:  C, C++, Python, Java, MATLAB, LaTex and SQL
+* Tools: Tensorflow, PyTorch, cv2, Keras, Flask and Android Studio.
 
 Publications
 ======
@@ -42,6 +38,18 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
+Projects
+======
+* **K-Stack** : K-Stack is a web application that provides facilities to communicate with groups who share interests in same field of study. 
+Users can communicate with other fellow group member by either a text chat or a real time video chat. This provides free online classes with the users mutually benefiting each other.
+* **Automatic Number Plate Recognition System** : APNR is a model that aims to automate the surveillance vehicle entering and exiting the factory.
+* **School Of Curious** : The project was aimed to make learning more interactive using Machine learning and computer vision.
+* **GeoLifeCLEF** : The aim of the research is to find the occurrence  of all species for the particular latitude and longitude using environmental data at that location.
+* **Flight Delay Prediction** : This is a research project that aims to predict the delay of the fight based on the weather condition and time of departure.
+* **Machine Hand: Arduino** : Machine hand is an Arduino project that translates the motion of human hand into a robot hand motion.
+* **Air Hockey: Game in C++** : Air Hockey is a our take on the game commonly played in many amusement places.
+
+
 Talks
 ======
   <ul>{% for post in site.talks %}
@@ -54,6 +62,10 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Languages Known
 ======
-* Currently signed in to 43 different slack teams
+
+* English
+* Tamil
+* Hindi
+* German (Elementary)
