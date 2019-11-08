@@ -12,7 +12,7 @@
   /* sticky footer fix start */
   position: absolute;
   bottom: 0em;
-  height: auto;
+  height: 8em;
   /* sticky footer fix end */
   margin-top: 3em;
   color: mix(#fff, $gray, 25%);
@@ -20,7 +20,7 @@
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
-  background-color: #95d4f0;
+  background-color: #b5edf5;
   border-top: 1px solid #9ad7ed;
 
   footer {
