@@ -121,7 +121,7 @@
     padding: 3em 0;
     @include clearfix;
     background-size: cover;
-    background-color: #bce69e;
+    
     background-repeat: no-repeat;
     background-position: center;
     animation: intro 0.3s both;
@@ -294,12 +294,12 @@
   font-size: $type-size-6;
   border-top: 1px solid $border-color;
   text-transform: uppercase;
-  background-color: #bce69e;
+  
 }
 
 .page__comments-form {
   padding: 1em;
-  background: #bce69e;
+  
   transition: $global-transition;
 
   &.disabled {
