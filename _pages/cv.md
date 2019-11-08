@@ -35,7 +35,7 @@ Skills
   * Python
   * Java
   * MATLAB
-  * LaTex
+  * LaTeX
   * SQL
 * Tools:  
   * Tensorflow 
@@ -55,7 +55,7 @@ Projects
 ======
 * **K-Stack** : K-Stack is a web application that provides facilities to communicate with groups who share interests in same field of study. 
 Users can communicate with other fellow group member by either a text chat or a real time video chat. This provides free online classes with the users mutually benefiting each other.
-* **Automatic Number Plate Recognition System** : APNR is a model that aims to automate the surveillance vehicle entering and exiting the factory.
+* **Automatic Number Plate Recognition System** : ANPR is a model that aims to automate the surveillance vehicle entering and exiting the factory.
 * **School Of Curious** : The project was aimed to make learning more interactive using Machine learning and computer vision.
 * **GeoLifeCLEF** : The aim of the research is to find the occurrence  of all species for the particular latitude and longitude using environmental data at that location.
 * **Flight Delay Prediction** : This is a research project that aims to predict the delay of the fight based on the weather condition and time of departure.
