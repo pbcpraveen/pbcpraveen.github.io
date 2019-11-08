@@ -6,7 +6,7 @@ author_profile: true
 redirect_from:
   - /resources
 ---
-Hi, here are some of the resources that I prepared. I hope they are usefull to you.
+Hi, here are some of the resources that I prepared. I hope they are useful to you.
 
 # Image processing
 This [document](http://pbcpraveen.github.io/files/ImageProcessing.pdf) contains some basic intoduction to image processing 
