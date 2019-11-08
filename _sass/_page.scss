@@ -292,11 +292,12 @@
   font-size: $type-size-6;
   border-top: 1px solid $border-color;
   text-transform: uppercase;
+  background-color: #bce69e;
 }
 
 .page__comments-form {
   padding: 1em;
-  background: $lighter-gray;
+  background: #bce69e;
   transition: $global-transition;
 
   &.disabled {
