@@ -14,7 +14,7 @@ Education
 ======
 * $10^{th}$ Grade , The Hindu Senior Secondary School, Indra Nagar, Chennai.(2015)
 * $12^{th}$ Grade , The Hindu Senior Secondary School, Indra Nagar, Chennai.(2017)
-* Bachelors in Computer Science and Engineering, Kalavakkam, Tamil Nadu. (2021 - expected) 
+* Bachelors in Computer Science and Engineering, Kalavakkam, Tamil Nadu. (expected 2021) 
 
 Work experience
 ======
@@ -26,7 +26,7 @@ Work experience
 Skills
 ======
 * Machine Learning
-* Deep learining
+* Deep learning
 * Computer Vision
 * Arduino
 * Languages:  
