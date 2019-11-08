@@ -12,8 +12,8 @@ The document version of my CV can be downloaded [here](http://pbcpraveen.github.
 
 Education
 ======
-* $10^th$ Grade , The Hindu Senior Secondary School, Indra Nagar, Chennai.(2015)
-* $12^th$ Grade , The Hindu Senior Secondary School, Indra Nagar, Chennai.(2017)
+* $10^{th}$ Grade , The Hindu Senior Secondary School, Indra Nagar, Chennai.(2015)
+* $12^{th}$ Grade , The Hindu Senior Secondary School, Indra Nagar, Chennai.(2017)
 * Bachelors in Computer Science and Engineering, Kalavakkam, Tamil Nadu. (2021 - expected) 
 
 Work experience
@@ -29,8 +29,21 @@ Skills
 * Deep learining
 * Computer Vision
 * Arduino
-* Languages:  C, C++, Python, Java, MATLAB, LaTex and SQL
-* Tools: Tensorflow, PyTorch, cv2, Keras, Flask and Android Studio.
+* Languages:  
+  * C
+  * C++
+  * Python
+  * Java
+  * MATLAB
+  * LaTex
+  * SQL
+* Tools:  
+  * Tensorflow 
+  * PyTorch
+  * cv2
+  * Keras
+  * Flask
+  * Android Studio.
 
 Publications
 ======
