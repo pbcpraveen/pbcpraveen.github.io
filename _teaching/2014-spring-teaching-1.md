@@ -1,20 +1,11 @@
 ---
-title: "Teaching experience 1"
+title: "Teach a School"
 collection: teaching
-type: "Undergraduate course"
+type: "Elementary school"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
+venue: "Kalavakkam"
 date: 2014-01-01
-location: "City, Country"
+location: "Chennai, Tamil Nadu"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+TAS is a SSN community the woks for a noble cause to give educational support for those who are in need. We went to nearby government schools where there are insufficient number of teachers to handle the kids and helped them.
