@@ -1,11 +1,12 @@
 /* ==========================================================================
    jQuery plugin settings and other scripts
    ========================================================================== */
+  
+$(document).ready(function(){
+   // Sticky footer
    particlesJS.load('particles-js', 'assets/particles.json', function() {
     console.log('callback - particles.js config loaded');
   });
-$(document).ready(function(){
-   // Sticky footer
   var bumpIt = function() {
       $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
     },
