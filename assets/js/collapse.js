@@ -12,5 +12,7 @@ $(".header").click(function () {
             return $content.is(":visible") ? "Collapse" : "Expand";
         });
     });
-
+    particlesJS.load('particles-js', 'assets/particles.json', function() {
+        console.log('callback - particles.js config loaded');
+      });
 });

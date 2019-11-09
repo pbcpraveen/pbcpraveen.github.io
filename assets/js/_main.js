@@ -1,7 +1,9 @@
 /* ==========================================================================
    jQuery plugin settings and other scripts
    ========================================================================== */
-
+   particlesJS.load('particles-js', 'assets/particles.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
 $(document).ready(function(){
    // Sticky footer
   var bumpIt = function() {
@@ -94,5 +96,5 @@ $(document).ready(function(){
     closeOnContentClick: true,
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
-
+ 
 });
