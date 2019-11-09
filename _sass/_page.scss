@@ -10,12 +10,12 @@
   padding-right: 1em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
-  background-color: #faf2d4;
-
+  .element {
+    background-image: url(/images/bing.svg);
+  }
   @include breakpoint($x-large) {
     max-width: $x-large;
-    background-color: #faf2d4;
-
+   
   }
 }
 
@@ -24,8 +24,7 @@
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
     @include suffix(2 of 12);
-    background-color: #faf2d4;
-
+   
   }
 
   .page__inner-wrap {
@@ -35,8 +34,7 @@
     .page__meta,
     .page__share {
       @include full();
-      background-color: #faf2d4;
-
+     
     }
   }
 }
@@ -44,20 +42,17 @@
 .page__title {
   margin-top: 0;
   line-height: 1;
-  background-color: #faf2d4;
-
+ 
   & + .page__meta {
     margin-top: -0.5em;
-    background-color: #faf2d4;
-
+   
   }
 }
 
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-4;
-  background-color: #faf2d4;
-
+ 
 }
 
 .page__content {
@@ -65,8 +60,7 @@
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
-    background-color: #faf2d4;
-
+   
   }
 
   p, li, dl {
@@ -76,31 +70,26 @@
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;
-    background-color: #faf2d4;
-
+   
     /* sibling indentation*/
     @if $paragraph-indent == true {
       & + p {
         text-indent: $indent-var;
         margin-top: -($indent-var);
-        background-color: #faf2d4;
-
+       
       }
     }
   }
 
   a {
     text-decoration: underline;
-    background-color: #faf2d4;
-
+   
     &:hover {
       text-decoration: underline;
-      background-color: #faf2d4;
-
+     
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
-        background-color: #faf2d4;
-
+       
       }
     }
   }
@@ -109,30 +98,26 @@
     margin-top: 1em;
     font-family: $sans-serif;
     font-weight: bold;
-    background-color: #faf2d4;
-
+   
   }
 
   dd {
     margin-left: 1em;
     font-family: $sans-serif;
     font-size: $type-size-6;
-    background-color: #faf2d4;
-
+   
   }
 
   .small {
     font-size: $type-size-6;
-    background-color: #faf2d4;
-
+   
   }
 
   /* blockquote citations */
   blockquote + .small {
     margin-top: -1.5em;
     padding-left: 1.25rem;
-    background-color: #faf2d4;
-
+   
   }
 }
 
@@ -142,16 +127,14 @@
   @include clearfix;
   animation: intro 0.3s both;
   animation-delay: 0.25s;
-  background-color: #faf2d4;
-
+ 
   &--overlay {
     position: relative;
     margin-bottom: 2em;
     padding: 3em 0;
     @include clearfix;
     background-size: cover;
-    background-color: #faf2d4;
-
+   
     background-repeat: no-repeat;
     background-position: center;
     animation: intro 0.3s both;
@@ -159,19 +142,16 @@
 
     a {
       color: #fff;
-      background-color: #faf2d4;
-
+     
     }
 
     .wrapper {
       padding-left: 1em;
       padding-right: 1em;
-      background-color: #faf2d4;
-
+     
       @include breakpoint($x-large) {
         max-width: $x-large;
-        background-color: #faf2d4;
-
+       
       }
     }
 
@@ -181,24 +161,20 @@
     .btn {
       color: #fff;
       text-shadow: 1px 1px 4px rgba(#000, 0.5);
-      background-color: #faf2d4;
-
+     
     }
 
     .page__lead {
       max-width: $medium;
-      background-color: #faf2d4;
-
+     
     }
 
     .page__title {
       font-size: $type-size-2;
-      background-color: #faf2d4;
-
+     
       @include breakpoint($small) {
         font-size: $type-size-1;
-        background-color: #faf2d4;
-
+       
       }
     }
   }
@@ -207,8 +183,7 @@
 .page__hero-image {
   width: 100%;
   height: auto;
-  background-color: #faf2d4;
-
+ 
   -ms-interpolation-mode: bicubic;
 }
 
@@ -225,20 +200,17 @@
   text-align: right;
   z-index: 5;
   opacity: 0.5;
-  background-color: #faf2d4;
-
+ 
   border-radius: $border-radius 0 $border-radius 0;
 
   @include breakpoint($large) {
-    background-color: #faf2d4;
-
+   
     padding: 5px 10px;
   }
 
   a {
     color: #fff;
-    background-color: #faf2d4;
-
+   
     text-decoration: none;
   }
 }
@@ -251,8 +223,7 @@
   margin-top: 2em;
   padding-top: 1em;
   border-top: 1px solid $border-color;
-  background-color: #faf2d4;
-
+ 
   @include breakpoint(max-width $small) {
     .btn span {
       border: 0;
@@ -262,8 +233,7 @@
       overflow: hidden;
       padding: 0;
       position: absolute;
-      background-color: #faf2d4;
-
+     
       width: 1px;
     }
   }
@@ -273,8 +243,7 @@
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
-  background-color: #faf2d4;
-
+ 
 }
 
 
@@ -287,19 +256,16 @@
   color: mix(#fff, $gray, 25%);
   font-family: $sans-serif;
   font-size: $type-size-6;
-  background-color: #faf2d4;
-
+ 
 
   p {
     margin: 0;
-    background-color: #faf2d4;
-
+   
   }
 
   a {
     color: inherit;
-    background-color: #faf2d4;
-
+   
   }
 }
 
@@ -307,8 +273,7 @@
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
-  background-color: #faf2d4;
-
+ 
 }
 
 
@@ -319,14 +284,12 @@
 .page__taxonomy {
   .sep {
     display: none;
-    background-color: #faf2d4;
-
+   
   }
 
   strong {
     margin-right: 10px;
-    background-color: #faf2d4;
-
+   
   }
 }
 
@@ -338,14 +301,12 @@
   text-decoration: none;
   border: 1px solid $light-gray;
   border-radius: $border-radius;
-  background-color: #faf2d4;
-
+ 
 
   &:hover {
     text-decoration: none;
     color: $link-color-hover;
-    background-color: #faf2d4;
-
+   
   }
 }
 
@@ -365,8 +326,7 @@
   font-size: $type-size-6;
   border-top: 1px solid $border-color;
   text-transform: uppercase;
-  background-color: #faf2d4;
-
+ 
   
 }
 
@@ -374,8 +334,7 @@
   padding: 1em;
   
   transition: $global-transition;
-  background-color: #faf2d4;
-
+ 
   &.disabled {
     input,
     button,
@@ -386,8 +345,7 @@
       filter: alpha(opacity=65);
       box-shadow: none;
       opacity: 0.65;
-      background-color: #faf2d4;
-
+     
     }
   }
 }
@@ -395,12 +353,10 @@
 .comment {
   @include clearfix();
   margin: 1em 0;
-  background-color: #faf2d4;
-
+ 
   &:not(:last-child) {
     border-bottom: 1px solid $border-color;
-    background-color: #faf2d4;
-
+   
   }
 }
 
@@ -408,13 +364,11 @@
   float: left;
   width: 60px;
   height: 60px;
-  background-color: #faf2d4;
-
+ 
   @include breakpoint($large) {
     width: 100px;
     height: 100px;
-    background-color: #faf2d4;
-
+   
   }
 }
 
@@ -422,38 +376,32 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #faf2d4;
-
+ 
   @include breakpoint($large) {
     width: 80px;
     height: 80px;
     padding: 5px;
     border: 1px solid $border-color;
-    background-color: #faf2d4;
-
+   
   }
 }
 
 .comment__content-wrapper {
   float: right;
   width: calc(100% - 60px);
-  background-color: #faf2d4;
-
+ 
   @include breakpoint($large) {
     width: calc(100% - 100px);
-    background-color: #faf2d4;
-
+   
   }
 }
 
 .comment__author {
   margin: 0;
-  background-color: #faf2d4;
-
+ 
   a {
     text-decoration: none;
-    background-color: #faf2d4;
-
+   
   }
   
 }
@@ -461,12 +409,10 @@
 .comment__date {
   @extend .page__meta;
   margin: 0;
-  background-color: #faf2d4;
-
+ 
 
   a {
-    background-color: #faf2d4;
-
+   
     text-decoration: none;
   }
 }
@@ -482,8 +428,7 @@
   border-top: 1px solid $border-color;
   @include clearfix();
   float: left;
-  background-color: #faf2d4;
-
+ 
   @include breakpoint($large) {
     @include pre(2.5 of 12);
   }
@@ -491,8 +436,7 @@
   a {
     color: inherit;
     text-decoration: none;
-    background-color: #faf2d4;
-
+   
   }
 }
 
@@ -500,6 +444,5 @@
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
-  background-color: #faf2d4;
-
+ 
 }
