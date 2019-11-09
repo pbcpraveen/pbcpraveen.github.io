@@ -10,7 +10,13 @@
   padding-right: 1em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
+<<<<<<< HEAD
   background-color: #fdffe2;
+=======
+  .element {
+    background-image: url(/images/bing.svg);
+  }
+>>>>>>> parent of fe2ebaa... csstestsvg2
   @include breakpoint($x-large) {
     max-width: $x-large;
    
