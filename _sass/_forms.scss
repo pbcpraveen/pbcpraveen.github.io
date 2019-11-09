@@ -9,6 +9,8 @@ form {
     margin-bottom: 5px;
     padding: 0;
     border-width: 0;
+    background-color: #f7cdcd;
+
   }
 
   legend {
@@ -21,20 +23,28 @@ form {
     border: 0;
     border-bottom: 1px solid mix(#fff, #000, 80%);
     white-space: normal;
+    background-color: #f7cdcd;
+
   }
 
   p {
     margin-bottom: 5px / 2;
+    background-color: #f7cdcd;
+
   }
 
   ul {
     list-style-type: none;
     margin: 0 0 5px 0;
     padding: 0;
+    background-color: #f7cdcd;
+
   }
 
   br {
     display: none;
+    background-color: #f7cdcd;
+
   }
 }
 
@@ -45,6 +55,8 @@ select,
 textarea {
   vertical-align: baseline;
   *vertical-align: middle;
+  background-color: #f7cdcd;
+
 }
 
 input,
@@ -53,6 +65,8 @@ select,
 textarea {
   box-sizing: border-box;
   font-family: $sans-serif;
+  background-color: #f7cdcd;
+
 }
 
 label {
@@ -63,12 +77,16 @@ label {
 
   small {
     font-size: $type-size-6;
+    background-color: #f7cdcd;
+
   }
 
   input,
   textarea,
   select {
     display: block;
+    background-color: #f7cdcd;
+
   }
 }
 
@@ -84,18 +102,25 @@ select {
   border: 1px solid mix(#fff, #000, 80%);
   border-radius: $border-radius;
   box-shadow: $box-shadow;
+  background-color: #f7cdcd;
 
   &:hover {
     border-color: mix(#fff, $primary-color, 50%);
+    background-color: #f7cdcd;
+
   }
 }
 
 .input-mini {
   width: 60px;
+  background-color: #f7cdcd;
+
 }
 
 .input-small {
   width: 90px;
+  background-color: #f7cdcd;
+
 }
 
 input[type="image"],
@@ -110,6 +135,8 @@ input[type="radio"] {
   cursor: pointer;
   border-radius: 0;
   border: 0 \9;
+  background-color: #f7cdcd;
+
 }
 
 input[type="checkbox"],
@@ -118,11 +145,15 @@ input[type="radio"] {
   padding: 0;
   *width: 13px;
   *height: 13px;
+  background-color: #f7cdcd;
+
 }
 
 input[type="image"] {
   border: 0;
   box-shadow: none;
+  background-color: #f7cdcd;
+
 }
 
 input[type="file"] {
@@ -133,6 +164,8 @@ input[type="file"] {
   background-color: transparent;
   background-color: initial;
   box-shadow: none;
+  background-color: #f7cdcd;
+
 }
 
 input[type="button"],
@@ -142,21 +175,29 @@ input[type="submit"] {
   height: auto;
   cursor: pointer;
   *overflow: visible;
+  background-color: #f7cdcd;
+
 }
 
 select,
 input[type="file"] {
   *margin-top: 4px;
+  background-color: #f7cdcd;
+
 }
 
 select {
   width: auto;
   background-color: #fff;
+  background-color: #f7cdcd;
+
 }
 
 select[multiple],
 select[size] {
   height: auto;
+  background-color: #f7cdcd;
+
 }
 
 textarea {
@@ -164,26 +205,36 @@ textarea {
   height: auto;
   overflow: auto;
   vertical-align: top;
+  background-color: #f7cdcd;
+
 }
 
 input[type="hidden"] {
   display: none;
+  background-color: #f7cdcd;
+
 }
 
 .form {
   position: relative;
+  background-color: #f7cdcd;
+
 }
 
 .radio,
 .checkbox {
   padding-left: 18px;
   font-weight: normal;
+  background-color: #f7cdcd;
+
 }
 
 .radio input[type="radio"],
 .checkbox input[type="checkbox"] {
   float: left;
   margin-left: -18px;
+  background-color: #f7cdcd;
+
 }
 
 .radio.inline,
@@ -192,11 +243,15 @@ input[type="hidden"] {
   padding-top: 5px;
   margin-bottom: 0;
   vertical-align: middle;
+  background-color: #f7cdcd;
+
 }
 
 .radio.inline + .radio.inline,
 .checkbox.inline + .checkbox.inline {
   margin-left: 10px;
+  background-color: #f7cdcd;
+
 }
 
 
@@ -212,6 +267,8 @@ select[readonly],
 textarea[readonly] {
   opacity: 0.5;
   cursor: not-allowed;
+  background-color: #f7cdcd;
+
 }
 
 
@@ -224,6 +281,8 @@ textarea:focus {
   border-color: $primary-color;
   outline: 0;
   outline: thin dotted \9;
+  background-color: #f7cdcd;
+
 }
 
 input[type="file"]:focus,
@@ -231,6 +290,8 @@ input[type="radio"]:focus,
 input[type="checkbox"]:focus,
 select:focus {
   box-shadow: none;
+  background-color: #f7cdcd;
+
 }
 
 
@@ -241,18 +302,24 @@ select:focus {
 .help-block,
 .help-inline {
   color: $info-color;
+  background-color: #f7cdcd;
+
 }
 
 .help-block {
   display: block;
   margin-bottom: 1em;
   line-height: 1em;
+  background-color: #f7cdcd;
+
 }
 
 .help-inline {
   display: inline-block;
   vertical-align: middle;
   padding-left: 5px;
+    background-color: #f7cdcd;
+
 }
 
 
@@ -265,10 +332,14 @@ select:focus {
 .form-inline select {
   display: inline-block;
   margin-bottom: 0;
+  background-color: #f7cdcd;
+
 }
 
 .form-inline label {
   display: inline-block;
+  background-color: #f7cdcd;
+
 }
 
 .form-inline .radio,
@@ -277,13 +348,17 @@ select:focus {
   padding-left: 0;
   margin-bottom: 0;
   vertical-align: middle;
+  background-color: #f7cdcd;
+
 }
 
 .form-inline .radio input[type="radio"],
 .form-inline .checkbox input[type="checkbox"] {
   float: left;
   margin-left: 0;
-  margin-right: 3px; }
+  margin-right: 3px;
+  background-color: #f7cdcd;
+ }
 
 
 /*
@@ -295,6 +370,8 @@ select:focus {
 .form-search select {
   display: inline-block;
   margin-bottom: 0;
+  background-color: #f7cdcd;
+
 }
 
 .form-search .search-query {
@@ -302,10 +379,14 @@ select:focus {
   padding-right: 14px;
   margin-bottom: 0;
   border-radius: 14px;
+  background-color: #f7cdcd;
+
 }
 
 .form-search label {
   display: inline-block;
+  background-color: #f7cdcd;
+
 }
 
 .form-search .radio,
@@ -314,6 +395,8 @@ select:focus {
   padding-left: 0;
   margin-bottom: 0;
   vertical-align: middle;
+  background-color: #f7cdcd;
+
 }
 
 .form-search .radio input[type="radio"],
@@ -321,6 +404,8 @@ select:focus {
   float: left;
   margin-left: 0;
   margin-right: 3px;
+  background-color: #f7cdcd;
+
 }
 
 
@@ -334,6 +419,8 @@ select:focus {
 
 .form--loading .form__spinner {
   display: block;
+  background-color: #f7cdcd;
+
 }
 
 .form:before {
@@ -342,7 +429,8 @@ select:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: #f7cdcd ;
+
   z-index: 10;
 }
 
@@ -352,6 +440,8 @@ select:focus {
   top: 50%;
   left: 50%;
   z-index: 11;
+  background-color: #f7cdcd;
+
 }
 
 
@@ -365,8 +455,12 @@ select:focus {
     list-style: none;
     margin-left: 0;
     padding-left: 0;
+    background-color: #f7cdcd;
+
     li {
       list-style-type: none;
+      background-color: #f7cdcd;
+
     }
   }
 }
@@ -378,12 +472,13 @@ select:focus {
   padding: 8px 20px;
   display: inline-block;
   font-size: $type-size-6;
-  background-color: #fff;
   color: #000;
   border-width: 2px !important;
   border-style: solid !important;
   border-color: lighten(#000,50);
   border-radius: $border-radius;
+  background-color: #f7cdcd;
+
 }
 
 #goog-wm-sb {

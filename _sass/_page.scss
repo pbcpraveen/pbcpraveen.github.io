@@ -10,10 +10,12 @@
   padding-right: 1em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
-  
+  background-color: #f7cdcd;
 
   @include breakpoint($x-large) {
     max-width: $x-large;
+    background-color: #f7cdcd;
+
   }
 }
 
@@ -22,15 +24,19 @@
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
     @include suffix(2 of 12);
+    background-color: #f7cdcd;
+
   }
 
   .page__inner-wrap {
     @include full();
-
+    
     .page__content,
     .page__meta,
     .page__share {
       @include full();
+      background-color: #f7cdcd;
+
     }
   }
 }
@@ -38,15 +44,20 @@
 .page__title {
   margin-top: 0;
   line-height: 1;
+  background-color: #f7cdcd;
 
   & + .page__meta {
     margin-top: -0.5em;
+    background-color: #f7cdcd;
+
   }
 }
 
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-4;
+  background-color: #f7cdcd;
+
 }
 
 .page__content {
@@ -54,6 +65,8 @@
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
+    background-color: #f7cdcd;
+
   }
 
   p, li, dl {
@@ -63,24 +76,31 @@
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;
+    background-color: #f7cdcd;
 
     /* sibling indentation*/
     @if $paragraph-indent == true {
       & + p {
         text-indent: $indent-var;
         margin-top: -($indent-var);
+        background-color: #f7cdcd;
+
       }
     }
   }
 
   a {
     text-decoration: underline;
+    background-color: #f7cdcd;
 
     &:hover {
       text-decoration: underline;
+      background-color: #f7cdcd;
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
+        background-color: #f7cdcd;
+
       }
     }
   }
@@ -89,22 +109,30 @@
     margin-top: 1em;
     font-family: $sans-serif;
     font-weight: bold;
+    background-color: #f7cdcd;
+
   }
 
   dd {
     margin-left: 1em;
     font-family: $sans-serif;
     font-size: $type-size-6;
+    background-color: #f7cdcd;
+
   }
 
   .small {
     font-size: $type-size-6;
+    background-color: #f7cdcd;
+
   }
 
   /* blockquote citations */
   blockquote + .small {
     margin-top: -1.5em;
     padding-left: 1.25rem;
+    background-color: #f7cdcd;
+
   }
 }
 
@@ -114,6 +142,7 @@
   @include clearfix;
   animation: intro 0.3s both;
   animation-delay: 0.25s;
+  background-color: #f7cdcd;
 
   &--overlay {
     position: relative;
@@ -121,7 +150,8 @@
     padding: 3em 0;
     @include clearfix;
     background-size: cover;
-    
+    background-color: #f7cdcd;
+
     background-repeat: no-repeat;
     background-position: center;
     animation: intro 0.3s both;
@@ -129,14 +159,19 @@
 
     a {
       color: #fff;
+      background-color: #f7cdcd;
+
     }
 
     .wrapper {
       padding-left: 1em;
       padding-right: 1em;
+      background-color: #f7cdcd;
 
       @include breakpoint($x-large) {
         max-width: $x-large;
+        background-color: #f7cdcd;
+
       }
     }
 
@@ -146,17 +181,24 @@
     .btn {
       color: #fff;
       text-shadow: 1px 1px 4px rgba(#000, 0.5);
+      background-color: #f7cdcd;
+
     }
 
     .page__lead {
       max-width: $medium;
+      background-color: #f7cdcd;
+
     }
 
     .page__title {
       font-size: $type-size-2;
+      background-color: #f7cdcd;
 
       @include breakpoint($small) {
         font-size: $type-size-1;
+        background-color: #f7cdcd;
+
       }
     }
   }
@@ -165,6 +207,8 @@
 .page__hero-image {
   width: 100%;
   height: auto;
+  background-color: #f7cdcd;
+
   -ms-interpolation-mode: bicubic;
 }
 
@@ -181,14 +225,20 @@
   text-align: right;
   z-index: 5;
   opacity: 0.5;
+  background-color: #f7cdcd;
+
   border-radius: $border-radius 0 $border-radius 0;
 
   @include breakpoint($large) {
+    background-color: #f7cdcd;
+
     padding: 5px 10px;
   }
 
   a {
     color: #fff;
+    background-color: #f7cdcd;
+
     text-decoration: none;
   }
 }
@@ -201,6 +251,7 @@
   margin-top: 2em;
   padding-top: 1em;
   border-top: 1px solid $border-color;
+  background-color: #f7cdcd;
 
   @include breakpoint(max-width $small) {
     .btn span {
@@ -211,6 +262,8 @@
       overflow: hidden;
       padding: 0;
       position: absolute;
+      background-color: #f7cdcd;
+
       width: 1px;
     }
   }
@@ -220,6 +273,8 @@
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
+  background-color: #f7cdcd;
+
 }
 
 
@@ -232,13 +287,19 @@
   color: mix(#fff, $gray, 25%);
   font-family: $sans-serif;
   font-size: $type-size-6;
+  background-color: #f7cdcd;
+
 
   p {
     margin: 0;
+    background-color: #f7cdcd;
+
   }
 
   a {
     color: inherit;
+    background-color: #f7cdcd;
+
   }
 }
 
@@ -246,6 +307,8 @@
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
+  background-color: #f7cdcd;
+
 }
 
 
@@ -256,10 +319,14 @@
 .page__taxonomy {
   .sep {
     display: none;
+    background-color: #f7cdcd;
+
   }
 
   strong {
     margin-right: 10px;
+    background-color: #f7cdcd;
+
   }
 }
 
@@ -271,10 +338,14 @@
   text-decoration: none;
   border: 1px solid $light-gray;
   border-radius: $border-radius;
+  background-color: #f7cdcd;
+
 
   &:hover {
     text-decoration: none;
     color: $link-color-hover;
+    background-color: #f7cdcd;
+
   }
 }
 
@@ -294,6 +365,8 @@
   font-size: $type-size-6;
   border-top: 1px solid $border-color;
   text-transform: uppercase;
+  background-color: #f7cdcd;
+
   
 }
 
@@ -301,6 +374,7 @@
   padding: 1em;
   
   transition: $global-transition;
+  background-color: #f7cdcd;
 
   &.disabled {
     input,
@@ -312,6 +386,8 @@
       filter: alpha(opacity=65);
       box-shadow: none;
       opacity: 0.65;
+      background-color: #f7cdcd;
+
     }
   }
 }
@@ -319,9 +395,12 @@
 .comment {
   @include clearfix();
   margin: 1em 0;
+  background-color: #f7cdcd;
 
   &:not(:last-child) {
     border-bottom: 1px solid $border-color;
+    background-color: #f7cdcd;
+
   }
 }
 
@@ -329,10 +408,13 @@
   float: left;
   width: 60px;
   height: 60px;
+  background-color: #f7cdcd;
 
   @include breakpoint($large) {
     width: 100px;
     height: 100px;
+    background-color: #f7cdcd;
+
   }
 }
 
@@ -340,37 +422,51 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  background-color: #f7cdcd;
 
   @include breakpoint($large) {
     width: 80px;
     height: 80px;
     padding: 5px;
     border: 1px solid $border-color;
+    background-color: #f7cdcd;
+
   }
 }
 
 .comment__content-wrapper {
   float: right;
   width: calc(100% - 60px);
+  background-color: #f7cdcd;
 
   @include breakpoint($large) {
     width: calc(100% - 100px);
+    background-color: #f7cdcd;
+
   }
 }
 
 .comment__author {
   margin: 0;
+  background-color: #f7cdcd;
 
   a {
     text-decoration: none;
+    background-color: #f7cdcd;
+
   }
+  
 }
 
 .comment__date {
   @extend .page__meta;
   margin: 0;
+  background-color: #f7cdcd;
+
 
   a {
+    background-color: #f7cdcd;
+
     text-decoration: none;
   }
 }
@@ -386,6 +482,7 @@
   border-top: 1px solid $border-color;
   @include clearfix();
   float: left;
+  background-color: #f7cdcd;
 
   @include breakpoint($large) {
     @include pre(2.5 of 12);
@@ -394,6 +491,8 @@
   a {
     color: inherit;
     text-decoration: none;
+    background-color: #f7cdcd;
+
   }
 }
 
@@ -401,4 +500,6 @@
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
+  background-color: #f7cdcd;
+
 }
