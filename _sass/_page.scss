@@ -10,13 +10,13 @@
   padding-right: 1em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
-<<<<<<< HEAD
+
   background-color: #fdffe2;
-=======
+
   .element {
-    background-image: url(/images/bing.svg);
+    background-color: #fdffe2;
   }
->>>>>>> parent of fe2ebaa... csstestsvg2
+
   @include breakpoint($x-large) {
     max-width: $x-large;
    
@@ -24,7 +24,6 @@
 }
 
 .page {
-  background-color: #fdffe2;
   @include breakpoint($large) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
@@ -61,7 +60,6 @@
 }
 
 .page__content {
-  background-color: #fdffe2;
 
   h2 {
     padding-bottom: 0.5em;
@@ -128,7 +126,6 @@
 }
 
 .page__hero {
-  background-color: #fdffe2;
   position: relative;
   margin-bottom: 2em;
   @include clearfix;
@@ -188,7 +185,6 @@
 }
 
 .page__hero-image {
-  background-color: #fdffe2;
   width: 100%;
   height: auto;
  
@@ -196,7 +192,6 @@
 }
 
 .page__hero-caption {
-  background-color: #fdffe2;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -229,7 +224,6 @@
    ========================================================================== */
 
 .page__share {
-  background-color: #fdffe2;
   margin-top: 2em;
   padding-top: 1em;
   border-top: 1px solid $border-color;
@@ -250,7 +244,6 @@
 }
 
 .page__share-title {
-  background-color: #fdffe2;
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
@@ -263,7 +256,6 @@
    ========================================================================== */
 
 .page__meta {
-  background-color: #fdffe2;
   margin-top: 2em;
   color: mix(#fff, $gray, 25%);
   font-family: $sans-serif;
@@ -282,7 +274,6 @@
 }
 
 .page__meta-title {
-  background-color: #fdffe2;
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
@@ -307,7 +298,6 @@
 }
 
 .page__taxonomy-item {
-  background-color: #fdffe2;
   display: inline-block;
   margin-right: 5px;
   margin-bottom: 8px;
@@ -334,7 +324,6 @@
 }
 
 .page__comments-title {
-  background-color: #fdffe2;
   margin-top: 2rem;
   margin-bottom: 10px;
   padding-top: 2rem;
@@ -347,7 +336,7 @@
 
 .page__comments-form {
   padding: 1em;
-  background-color: #fdffe2;
+  
   transition: $global-transition;
  
   &.disabled {
@@ -368,7 +357,7 @@
 .comment {
   @include clearfix();
   margin: 1em 0;
-  background-color: #fdffe2;
+ 
   &:not(:last-child) {
     border-bottom: 1px solid $border-color;
    
@@ -379,7 +368,7 @@
   float: left;
   width: 60px;
   height: 60px;
-  background-color: #fdffe2;
+ 
   @include breakpoint($large) {
     width: 100px;
     height: 100px;
@@ -391,7 +380,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #fdffe2;
+ 
   @include breakpoint($large) {
     width: 80px;
     height: 80px;
@@ -404,7 +393,7 @@
 .comment__content-wrapper {
   float: right;
   width: calc(100% - 60px);
-  background-color: #fdffe2;
+ 
   @include breakpoint($large) {
     width: calc(100% - 100px);
    
@@ -413,7 +402,7 @@
 
 .comment__author {
   margin: 0;
-  background-color: #fdffe2;
+ 
   a {
     text-decoration: none;
    
@@ -425,7 +414,7 @@
   @extend .page__meta;
   margin: 0;
  
-  background-color: #fdffe2;
+
   a {
    
     text-decoration: none;
@@ -443,7 +432,7 @@
   border-top: 1px solid $border-color;
   @include clearfix();
   float: left;
-  background-color: #fdffe2;
+ 
   @include breakpoint($large) {
     @include pre(2.5 of 12);
   }
@@ -459,5 +448,5 @@
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
-  background-color: #fdffe2; 
+ 
 }
