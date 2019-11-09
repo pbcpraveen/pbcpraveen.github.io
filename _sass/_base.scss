@@ -5,10 +5,19 @@ html {
   /* sticky footer fix */
   position: relative;
   min-height: 100%;
-  background-image: url(/images/bing.svg);
+  
 
 }
 
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #b41a1a;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
 body {
   margin: 0;
   padding: 0;
