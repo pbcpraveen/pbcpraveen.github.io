@@ -20,112 +20,112 @@ var pJS = function(tag_id, params){
     },
     particles: {
       number: {
-        value: 80,
+        value: 400,
         density: {
           enable: true,
           value_area: 800
         }
       },
       color: {
-        value: "#000000"
+        value: '#fff'
       },
       shape: {
-        type: "circle",
+        type: 'circle',
         stroke: {
           width: 0,
-          color: "#000000"
+          color: '#ff0000'
         },
         polygon: {
           nb_sides: 5
         },
         image: {
-          src: "img/github.svg",
+          src: '',
           width: 100,
           height: 100
         }
       },
       opacity: {
-        value: 0.5,
+        value: 1,
         random: false,
         anim: {
           enable: false,
-          speed: 1,
-          opacity_min: 0.1,
+          speed: 2,
+          opacity_min: 0,
           sync: false
         }
       },
       size: {
-        value: 3,
-        random: true,
+        value: 20,
+        random: false,
         anim: {
           enable: false,
-          speed: 40,
-          size_min: 0.1,
+          speed: 20,
+          size_min: 0,
           sync: false
         }
       },
       line_linked: {
         enable: true,
-        distance: 150,
-        color: "#22a3d9",
-        opacity: 0.4,
+        distance: 100,
+        color: '#fff',
+        opacity: 1,
         width: 1
       },
       move: {
         enable: true,
-        speed: 6,
-        direction: "none",
+        speed: 2,
+        direction: 'none',
         random: false,
         straight: false,
-        out_mode: "out",
+        out_mode: 'out',
         bounce: false,
         attract: {
           enable: false,
-          rotateX: 600,
-          rotateY: 1200
+          rotateX: 3000,
+          rotateY: 3000
         }
-      }
+      },
+      array: []
     },
     interactivity: {
-      detect_on: "canvas",
+      detect_on: 'canvas',
       events: {
         onhover: {
           enable: true,
-          mode: "repulse"
+          mode: 'grab'
         },
         onclick: {
           enable: true,
-          mode: "push"
+          mode: 'push'
         },
         resize: true
       },
       modes: {
-        grab: {
-          distance: 400,
-          line_linked: {
+        grab:{
+          distance: 100,
+          line_linked:{
             opacity: 1
           }
         },
-        bubble: {
-          distance: 400,
-          size: 40,
-          duration: 2,
-          opacity: 8,
-          speed: 3
+        bubble:{
+          distance: 200,
+          size: 80,
+          duration: 0.4
         },
-        repulse: {
+        repulse:{
           distance: 200,
           duration: 0.4
         },
-        push: {
+        push:{
           particles_nb: 4
         },
-        remove: {
+        remove:{
           particles_nb: 2
         }
-      }
+      },
+      mouse:{}
     },
-    retina_detect: true,
+    retina_detect: false,
     fn: {
       interact: {},
       modes: {},

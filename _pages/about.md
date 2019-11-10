@@ -13,7 +13,7 @@ Hi folks, I am a Computer Science undergraduate student at Sri Sivasubramaniya N
 
 ### Contact:
 * Email-id :
-  * pbcpraveen@gmail.com
-  * praveenkumar17114@cse.ssn.edu.in
-  * praveen_kumar@ieee.org
+  * pbcpraveen@gmail.com [(mail)](mailto:pbcpraveen@gmail.com)
+  * praveenkumar17114@cse.ssn.edu.in [(mail)](mailto:praveenkumar17114@cse.ssn.edu.in)
+  * praveen_kumar@ieee.org [(mail)](mailto:praveen_kumar@ieee.org)
 

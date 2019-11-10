@@ -11,10 +11,10 @@
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
-  background-color: #fdffe2;
+  background-color: #ede7b7;
 
   .element {
-    background-color: #fdffe2;
+    background-color: #ede7b7;
   }
 
   @include breakpoint($x-large) {
