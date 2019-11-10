@@ -5,12 +5,12 @@
 #main {
   @include container;
   @include clearfix;
-  margin-top: 1em;
+  margin-top: 2em;
   padding-left: 1em;
   padding-right: 1em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
-  
+  height: 100%;
   background-color: #ede7b7;
 
   .element {
@@ -24,6 +24,8 @@
 }
 
 .page {
+  height: 100%;
+  background-color: #ede7b7;
   @include breakpoint($large) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
@@ -33,7 +35,7 @@
 
   .page__inner-wrap {
     @include full();
-    
+    margin-top: 2em;
     .page__content,
     .page__meta,
     .page__share {
@@ -128,6 +130,7 @@
 .page__hero {
   position: relative;
   margin-bottom: 2em;
+  padding-top: 2em;
   @include clearfix;
   animation: intro 0.3s both;
   animation-delay: 0.25s;
@@ -187,11 +190,12 @@
 .page__hero-image {
   width: 100%;
   height: auto;
- 
+  margin-top: 2em;
   -ms-interpolation-mode: bicubic;
 }
 
 .page__hero-caption {
+  
   position: absolute;
   bottom: 0;
   right: 0;
@@ -225,7 +229,7 @@
 
 .page__share {
   margin-top: 2em;
-  padding-top: 1em;
+  padding-top: 2em;
   border-top: 1px solid $border-color;
  
   @include breakpoint(max-width $small) {
