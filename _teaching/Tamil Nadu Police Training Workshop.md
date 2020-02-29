@@ -8,4 +8,4 @@ date: 2020-01-17
 location: "Chennai, Tamil Nadu"
 ---
 
-TAS is a SSN community the woks for a noble cause to give educational support for those who are in need. We went to nearby government schools where there are insufficient number of teachers to handle the kids and helped them.
+Volunteered for Python programming and Database Management sessions.
