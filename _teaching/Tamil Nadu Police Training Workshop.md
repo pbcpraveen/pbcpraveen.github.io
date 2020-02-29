@@ -1,10 +1,10 @@
 ---
-title: "Teach a School"
-collection: teaching
-type: "Elementary school"
+title: "Tamil Nadu Police Trainig - Cyber Crime Department"
+collection: Volunteer
+type: "Workshop - Volunteer"
 permalink: /teaching/2014-spring-teaching-1
-venue: "Kalavakkam"
-date: 2018-05-12
+venue: "SSN - Kalavakkam"
+date: 2020-01-17
 location: "Chennai, Tamil Nadu"
 ---
 
