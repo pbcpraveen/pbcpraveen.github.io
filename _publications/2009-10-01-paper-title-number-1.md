@@ -9,6 +9,3 @@ paperurl: 'http://pbcpraveen.github.io/files/paper_71.pdf'
 citation: ''
 ---
 
-
-[Download paper here](http://pbcpraveen.github.io/files/paper_71.pdf)
-
