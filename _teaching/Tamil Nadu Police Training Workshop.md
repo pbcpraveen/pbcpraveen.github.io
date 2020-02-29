@@ -1,5 +1,5 @@
 ---
-title: "Tamil Nadu Police Trainig - Cyber Crime Department"
+title: "Tamil Nadu Police Training - Cyber Crime Department"
 collection: Volunteer
 type: "Workshop - Volunteer"
 permalink: /teaching/2014-spring-teaching-1
