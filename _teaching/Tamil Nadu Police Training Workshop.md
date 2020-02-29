@@ -8,4 +8,4 @@ date: 2020-01-17
 location: "Chennai, Tamil Nadu"
 ---
 
-Volunteered for Python programming and Database Management sessions.
+Volunteered for Python programming and sessions.
