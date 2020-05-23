@@ -53,6 +53,12 @@ Publications
   
 Projects
 ======
+* **Behavioral Model - Industry 4.0** : Implemented behavioral model for Emergency Stop, Nut Runner and Vision System in a factory’s production line. These models provide necessary feedback to a PLC or a process using OPC DA protocol. Tkinter was used to design GUI fro this project. Our simulation models passed all the test cases and our team secured the first place
+
+* **Intelligent Stock Trading Agent** : The objective of this project is to build an agent that can intelligently buy, sell or not perform any action with respect to a stock. LSTMs, Deep Q Networks, Actor Critic methods and Genetic Algorithm were used to train the agent to make decisions.
+
+* **Smart Attendence Management System** : As a part of Smart India Hackathon, we tackled the problem statement propose by the Ministry of Youth and Affairs of India. We were asked to create a robust yet fool proof attendance management system with minimal hardware requirements. We created a webapp using JavaScript and an Mobile App using REACT Native. We designed a 4 stage pipelined security system to verify theu user and his location to provide attendence.
+
 * **K-Stack** : K-Stack is a web application that provides facilities to communicate with groups who share interests in same field of study. 
 Users can communicate with other fellow group member by either a text chat or a real time video chat. This provides free online classes with the users mutually benefiting each other.
 * **Automatic Number Plate Recognition System** : ANPR is a model that aims to automate the surveillance vehicle entering and exiting the factory.
