@@ -7,10 +7,14 @@ redirect_from:
   - /resources
 ---
 Hi, here are some of the resources that I prepared. I hope they are useful to you.
+# Deep Learning
+
+This [document](http://pbcpraveen.github.io/files/Machine_Learning.pdf) provids the fundemental of machine leaning. You can also find how to implement simple algorithms like Linear Regressoion and Logistic Regression.
+I have attempted to derive the gradients to implement gradient descent for these tow algorithms. I hope people who are new to ML find this useful. 
 
 # Deep Learning
 
-This [document](http://pbcpraveen.github.io/files/Back_Propagation.pdf) explains the mathematical modeling of Artificial Neural Network, with explanations to general notations used in various research works. I attempted to break down the math into detailed explanation to every steps.
+This [document](http://pbcpraveen.github.io/files/Back_Propagation.pdf) explains the mathematical modeling of Artificial Neural Network, with explanations to general notations used in various research works. I have attempted to break down the math into detailed explanation to every steps.
 The back propagation algorithm, a variation of which is currently used for many state of art models, is also explained with a simple example.
 This will be useful for people who have just started with DL. 
 
