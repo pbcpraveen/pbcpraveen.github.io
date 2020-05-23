@@ -12,12 +12,12 @@
   animation: intro 0.3s both;
   animation-delay: 0.35s;
   height: 100%;
-  background-color: #c4c4c4;
+  background-color:#ffffff;
   border-radius: 10pt;
   box-shadow: -7px 7px 20px -3px rgba(0,0,0,0.75);
 
   .element {
-    background-color: #c4c4c4;
+    background-color:#ffffff;
   }
 
   @include breakpoint($x-large) {
@@ -28,7 +28,7 @@
 
 .page {
   height: 100%;
-  background-color: #c4c4c4;
+  background-color:#ffffff;
   @include breakpoint($large) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
