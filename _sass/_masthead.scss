@@ -10,7 +10,7 @@
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
   z-index: 20;
-  background-color: #c9c9c9;
+  background-color: #e05d53;
   &__inner-wrap {
     @include container;
     @include clearfix;
@@ -19,29 +19,29 @@
     color: #5c5757;
     @include breakpoint($x-large) {
       max-width: $x-large;
-      background-color: #c9c9c9;
+      background-color: #e05d53;
     }
 
     nav {
       z-index: 10;
-      background-color: #c9c9c9;
+      background-color: #e05d53;
     }
 
     a {
       text-decoration: none;
-      background-color: #c9c9c9;
+      background-color: #e05d53;
     }
   }
 }
 
 .masthead__menu {
-  background-color: #c9c9c9;
+  background-color: #e05d53;
   ul {
     margin: 0;
     padding: 0;
     clear: both;
     list-style-type: none;
-    background-color: #c9c9c9;
+    background-color: #e05d53;
   }
 }
 
@@ -49,12 +49,12 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
-  background-color: #c9c9c9;
+  background-color: #e05d53;
 
   &--lg {
     padding-right: 2em;
     font-weight: 700;
-    background-color: #c9c9c9;
+    background-color: #e05d53;
   }
 }
 
