@@ -26,6 +26,7 @@
     "dayjs": "^1.10.4",
     "gh-pages": "^6.2.0",
     "prop-types": "^15.7.2",
+    "puppeteer": "^23.8.0",
     "raw.macro": "^0.4.2",
     "react": "^17.0.1",
     "react-bootstrap": "^2.10.5",
