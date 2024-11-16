@@ -20,8 +20,10 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>Hi, I&apos;m Praveen.
-        I&apos;m an aspiring researcher in the field of AI. I did my undergraduate majoring in
-        Computer Science. Currenlty, I&apos;m an Analyst at Goldman Sachs.
+        I&apos;m a full time software engineer who explores his interest in theory and AI as a
+        side quest. I graduated from UCSD with a masters in computer science. That is just to say
+        that I have enough persistence and patience to stay in same academic discipline for 6 years
+        and not go insane. Now, I&apos;m an Analyst at Goldman Sachs.
       </p>
       <ul className="actions">
         <li>

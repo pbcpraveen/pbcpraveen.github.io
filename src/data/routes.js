@@ -9,8 +9,8 @@ const routes = [
     path: '/resume',
   },
   {
-    label: 'Talks ans Teaching',
-    path: '/talks',
+    label: 'Publications',
+    path: '/publications',
   },
   {
     label: 'Poems',

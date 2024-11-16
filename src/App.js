@@ -1,7 +1,7 @@
 import React, { Suspense, lazy } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Main from './layouts/Main'; // fallback for lazy pages
-import './static/css/main.scss'; // All of our styles
+import './static/css/main.scss';
 
 const { PUBLIC_URL } = process.env;
 
@@ -12,7 +12,7 @@ const { PUBLIC_URL } = process.env;
 const Contact = lazy(() => import('./pages/Contact'));
 const Index = lazy(() => import('./pages/Index'));
 const NotFound = lazy(() => import('./pages/NotFound'));
-const Talks = lazy(() => import('./pages/Talks'));
+const Publication = lazy(() => import('./pages/Publications'));
 const Resume = lazy(() => import('./pages/Resume'));
 const Poems = lazy(() => import('./pages/Poems'));
 
@@ -21,7 +21,7 @@ const App = () => (
     <Suspense fallback={<Main />}>
       <Switch>
         <Route exact path="/" component={Index} />
-        <Route path="/talks" component={Talks} />
+        <Route path="/publications" component={Publication} />
         <Route path="/poems" component={Poems} />
         <Route path="/contact" component={Contact} />
         <Route path="/resume" component={Resume} />

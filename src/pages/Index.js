@@ -20,10 +20,13 @@ const Index = () => (
       </p>
       <p>
         For a more formal introduction, I finished my undergraduate in engineering at Anna
-        University in 2021, majoring in Computer Science. I have interned at Goldman Sachs for
-        nearly 8 months, where I now work as an Analyst. I&apos;m an aspiring researcher in the
-        field of AI. I&apos;m particularly interested in generalising AI models to achieve
-        robustness and multi-tasking.
+        University in 2021, majoring in Computer Science. During which, I  interned at Goldman Sachs
+        for nearly 8 months, where I later worked as a full time Analyst in Banglore, India for a
+        {/* eslint-disable-next-line max-len */}
+        year. Then I moved to US to pursue masters in computer science. Now I have joined back Goldman
+        in Dallas office as a software engineer. I have a huge interest in Theoretical Computer
+        Science, Database management and AI, and try to keep abreast of advancement made in these
+        branches.
       </p>
     </article>
   </Main>
